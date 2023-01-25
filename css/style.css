@@ -1,10 +1,16 @@
+body {
+  background-color: #708090;
+}
+
 #chat-container {
   height: 300px;
-  width: 500px;
+  width: 50%;
   border-radius: 10px;
   background-color: #f9f9f9;
   padding: 10px;
+  align-items: center;
   overflow: auto;
+  margin-bottom: 10px;
 }
 
 #chat-container div {
@@ -23,12 +29,14 @@
 }
 
 #chat-form {
-  width: 100%;
+  width: 50%;
   display: flex;
   align-items: center;
   background-color: #f9f9f9;
   padding: 10px;
+  align-items: center;
   border-radius: 10px;
+  margin-bottom: 10px;
 }
 
 #chat-input {
@@ -48,4 +56,15 @@ button[type="submit"] {
   padding: 5px 10px;
   font-size: 1rem;
   cursor: pointer;
+}
+
+.footer-legal-copyright {
+    margin-right: 30px;
+    float: left;
+    margin-top: 3px;
+    font-family: inherit;
+}
+
+body {
+background-color: #34B2F7;
 }
