@@ -11,7 +11,7 @@ chatForm.addEventListener('submit', async event => {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
-      'Authorization': 'Bearer YOUR_API_KEY'
+      'Authorization': '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'
     },
     body: JSON.stringify({
       prompt: message,
@@ -29,4 +29,3 @@ chatForm.addEventListener('submit', async event => {
   chatContainer.appendChild(messageContainer);
   chatContainer.scrollTop = chatContainer.scrollHeight;
 });
-
